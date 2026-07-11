@@ -4,6 +4,8 @@
     font-family: inter;
 }
 
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -188,18 +190,99 @@ border-top: 2px solid #E5E7EB;
 background-color:#2563EB;
 color: #ffffff;
 }
- li{
+.card li{
     padding:6px;
     list-style: disc;
     list-style-position:inside ;
   font-size: small;
 
 }
-li::marker{
+.card li::marker{
     color: #2563EB;
 }
 #pro-card{
     background-color: #0D1B2A;
     color: #dcdcdc;
 }
-/* Pricing Section Starts */
+/* sponsors Section Starts */
+
+
+body{
+    background:#ffffff;
+}
+
+/* Sponsors Section */
+
+.sponsors{
+    width:90%;
+    max-width:1300px;
+    margin:100px auto;
+    padding:60px 0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:70px;
+}
+
+/* Left Side */
+
+.sponsors-left{
+    flex:1;
+}
+
+.sponsors-left h2{
+    font-size:60px;
+    line-height:1.1;
+    color:#1a1a1a;
+    margin-bottom:25px;
+}
+
+.sponsors-left p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    background-color:#2563EB;
+    color:#fff;
+    text-decoration:none;
+    padding:16px 35px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+
+/* Right Side */
+
+.sponsors-right{
+    flex:1.7;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;              
+}
+
+.logo-box{
+    height:180px;
+    background:#fff;
+    border-radius: 5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:1px solid #4b27cb;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+
+.logo-box img{
+    max-width:150px;
+    max-height:80px;
+    object-fit:contain;
+       
+}
