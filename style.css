@@ -311,4 +311,9 @@ border:none;
 border-top: 2px solid #c4c4c4;
 
 }
+.copyright{
+    justify-content: center;
+    display: flex;
+    color:#575757;
+}
 /* Footer Ends*/
