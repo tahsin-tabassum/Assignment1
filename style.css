@@ -70,7 +70,6 @@ header div button{
 
 /* Speakers Section */
 section{
-    /* display: flex; */
     margin: 10px;
     padding: 8px;
 
@@ -112,4 +111,94 @@ section h1{
 }
 .p-color{
     color: #575757;
+}
+/* Speakers Section Ends */
+
+/* Pricing Section Starts */
+
+p{
+    display: flex;
+    justify-content: center;
+     color: #575757;
+     margin-bottom: 30px;
+}
+.pricing{
+   display: grid;
+   grid-template-columns:repeat(3, 0fr) ;
+    gap:30px;
+    justify-content: center;
+}
+.card{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #E5E7EB;
+    padding: 30px;
+    width: 300px;
+    height:400px;
+  
+    
+}
+#team{
+    background-color: #F8F9FB;
+    border-color: #E5E7EB;
+}
+
+.pricing p{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+font-size: 10px;
+    
+}
+.dollar{
+    font-size:40px;
+    font-weight: bolder;
+    color: black;
+    
+}
+hr{
+   width: 300px;
+   margin: 20px 0px;
+border:none;
+border-top: 2px solid #E5E7EB;
+
+}
+.pro-hr{
+    border:none;
+    border-top: 2px solid rgb(90, 90, 90)
+}
+.get{
+    padding:10px;
+    width: 300px;
+    border-radius:5px;
+    margin-top: 15px;
+    height: 50px;
+    font-size: small;
+    font-weight:bold;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#2563EB;
+    color: #2563EB;
+
+}
+#pro {
+background-color:#2563EB;
+color: #ffffff;
+}
+ li{
+    padding:6px;
+    list-style: disc;
+    list-style-position:inside ;
+  font-size: small;
+
+}
+li::marker{
+    color: #2563EB;
+}
+#pro-card{
+    background-color: #0D1B2A;
+    color: #dcdcdc;
 }
