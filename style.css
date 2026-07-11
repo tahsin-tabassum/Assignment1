@@ -87,10 +87,12 @@ section h1{
     grid-template-columns: repeat(2,1fr);
     gap:15px;
     width:0px;
-    margin: 20px 80px;
+    margin: 20px 90px;
+
 
 }
 .content-card1{
+    /* justify-content: center; */
     margin: 10px;
     background-color: #ffffff;
     border-radius: 20px;
@@ -111,14 +113,14 @@ section h1{
     gap: 8px;
 
 }
-.p-color{
+.p-colour{
     color: #575757;
 }
 /* Speakers Section Ends */
 
 /* Pricing Section Starts */
 
-p{
+.p-price{
     display: flex;
     justify-content: center;
      color: #575757;
@@ -206,13 +208,6 @@ color: #ffffff;
 }
 /* sponsors Section Starts */
 
-
-body{
-    background:#ffffff;
-}
-
-/* Sponsors Section */
-
 .sponsors{
     width:90%;
     max-width:1300px;
@@ -262,7 +257,6 @@ body{
 
 .sponsors-right{
     flex:1.7;
-
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap: 20px;              
@@ -276,7 +270,7 @@ body{
     justify-content:center;
     align-items:center;
     border:1px solid #4b27cb;
-    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    box-shadow:12px 4px 10px rgba(12, 36, 251, 0.08);
 }
 
 
@@ -317,3 +311,4 @@ border:none;
 border-top: 2px solid #c4c4c4;
 
 }
+/* Footer Ends*/
