@@ -286,3 +286,34 @@ body{
     object-fit:contain;
        
 }
+/* Sponsors Section Ends */
+
+/* Footer Starts*/
+.footer{
+    background-color: #0D1B2A;
+    padding: 10px;
+} 
+/* .footer-items{
+    display: flex;
+    justify-content: center; 
+    
+} */
+.social{
+    justify-content: end;
+    gap: 10px;
+    display: flex;
+
+}
+.social a{
+    font-size: 25px;
+    color: #eeeeee;
+}
+.hr{
+   width: 30%;
+ justify-content: center;
+   display: flex;
+   margin: 20px auto;
+border:none;
+border-top: 2px solid #c4c4c4;
+
+}
