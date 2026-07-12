@@ -84,7 +84,7 @@ header div button{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:15px;
-    width:85%;
+    width:0px;
 margin: 20px 100px; 
 
 
