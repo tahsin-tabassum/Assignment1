@@ -81,10 +81,10 @@ header div button{
 }
 
 .cards{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:15px;
-    width:0px;
+       display: grid;
+   grid-template-columns:repeat(2, 0fr) ;
+    gap:30px;
+    justify-content: center;
 /* margin: 20px 100px;  */
 
 
